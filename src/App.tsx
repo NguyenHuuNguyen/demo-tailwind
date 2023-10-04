@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Card from './components/Card';
 import content from './content';
+import "./index.css"
 
 interface AppProps {}
 

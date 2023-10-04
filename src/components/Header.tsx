@@ -1,5 +1,4 @@
 import React from 'react';
-import 'style.css'
 
 interface HeaderProps { }
 
@@ -7,7 +6,7 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <div className='bg-blue-100'>
       {/* ko ăn code 1000px */}
-      <header className="px-10 py-5 max-w-screen-xl my-0 mx-auto w-[1000px] bg-[#5dea06f] w-1000">
+      <header className="px-10 py-5 max-w-screen-xl my-0 mx-auto w-[1000px] bg-[#5dea06f]">
         <nav className="flex flex-col md:flex-row md:justify-between justify-center items-center">
           <img src='./images/logo.svg' alt='' className="mb-10 md:mb-0" />
           <button className="rounded-full border-none shadow-md cursor-pointer font-semibold text-lg py-4 px-12 bg-white text-gray-800 hover:opacity-90 hover:shadow-xl hover:scale-90">Try It Free</button>
